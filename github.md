@@ -12,7 +12,11 @@ Recomendación: Seguir este tutorial utilizando Google Chrome o Mozilla Firefox
 
 * Poner un nombre al sketch y guardarlo
 
-![](.gitbook/assets/renombrar-y-guardar-01.png)
+![](.gitbook/assets/02.png)
+
+* Hacer clic en el botón **Download**, lo cual descargará un archivo **.zip** al computador
+
+![](.gitbook/assets/03.png)
 
 ## 
 
