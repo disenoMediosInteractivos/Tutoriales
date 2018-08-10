@@ -4,22 +4,13 @@
 Recomendación: Seguir este tutorial utilizando Google Chrome o Mozilla Firefox
 {% endhint %}
 
+## a. Obtener los archivos
 
+Estar seguro de que el sketch corre bien y sin errores en el [editor](http://alpha.editor.p5js.org)
+
+![](.gitbook/assets/captura-de-pantalla-2018-08-10-a-las-3.15.49-p.m..png)
 
 ## 
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
 
 
 
