@@ -8,6 +8,10 @@ Recomendación: Seguir este tutorial utilizando Google Chrome o Mozilla Firefox
 
 {% page-ref page="02.md" %}
 
+{% page-ref page="03.md" %}
+
+{% page-ref page="04.md" %}
+
 ## 
 
 
