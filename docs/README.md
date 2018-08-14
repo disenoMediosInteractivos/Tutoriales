@@ -1,7 +1,7 @@
 
 # Diseño en nedios interactivos
 
-## Índices
+### Índices
 
 1. [Para la clase](indice_clase.html)
 
