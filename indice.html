@@ -1,164 +1,696 @@
 <html>
 	<head>
-			<title> NOMBRE APELLIDO </title>  <!-- PONER AQUI SU NOMBRE -->
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title> Diseño en Medios Interactivos 2018-2 </title>
 			<link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 			<style>
 				body {
+						width:100%;
+						left: 0px;
+						top: 0px;
 				    margin: auto;
 				    font-family: 'Lato', sans-serif;
-				}
-
-				.nav {
-					width:100%;
-					background-color: #f61b57;
-				}
-
-				.ejercicio {
-					margin:auto;
-					padding-left: 20px;
-					background-color: #fff;
-				}
-
-				.ejercicio:hover {
-					background-color: #eee;
-					transition: all .25s ease-in-out;
-				}
-
-				.adentro {
-					margin:auto;
-					max-width: 960px;
-				}
-
-				h2 {
-					color: #f61b57;
-					font-size: 45px;
-					padding-right: 20px;	
-				}
-
-				h1 {
-
-				    max-width: 960px;
-				    padding-top: 40px;
-				    padding-left: 20px;
-				    margin: auto;
-				    color: white;
-				}
-				h3 {
-				    max-width: 960px;
-				    margin: auto;
-				    color: white;
-				    padding-bottom: 40px;
-			            padding-left: 20px;
-				}
-				
-				h4 {
-					color: #222;
-					font-size: 20px;
 				}
 
 				h4, h2 {
 					display:inline-block;
 				}
 
-				a {
-					text-decoration: none;	
+				h2 {
+					color: #3498db;
+					font-size: 32px;
+					padding-right: 20px;
+
 				}
 
-				a:visited {
-					text-decoration: none;
-					transition: all .2s ease-in;
+				h4 {
+					color: #222;
+					font-size: 18px;
 				}
-				
+
+				a {
+					display: block;
+					text-decoration: none;
+					color: #222;
+					font-size: 15px;
+				}
+
+				.nav-color {
+					background-color: #3498db;
+				}
+
+				.nav-contenido{
+					max-width: 960px;
+					margin: auto;
+					color: white;
+					padding: 40px 20px;
+				}
+
+				.nav-contenido h1, h3{
+					margin: 0;
+				}
+
+				.titulo-color {
+					background-color: white;
+					border-bottom: 1px solid #eee;
+				}
+
+				.titulo-color:hover{
+					background-color: #f3f3f3;
+				}
+
+				.titulo-contenido {
+					max-width: 960px;
+					margin: auto;
+					padding: 0 20px;
+				}
+
+				.estudiantes {
+					padding: 0;
+					margin: 0;
+				}
+
+				.estudiante-color {
+					background-color: white;
+					/* list-style: none; */
+					padding: 10px 20px;
+					border-bottom: 1px solid #eee;
+				}
+
+				.estudiante-color:hover {
+					background-color: #f3f3f3;
+				}
+
+				.estudiante-nombre {
+					max-width: 960px;
+					margin: auto;
+					padding: 0 20px;
+					color: grey;
+				}
+
 			</style>
 	</head>
+
 	<body>
-		<div class="nav">
-			<a href = "https://github.com/disenoMediosInteractivos/Tutoriales" target="_blank"> <!-- PONER AQUI LINK A SU REPOSITORIO-->
-			   <h1>  NOMBRE APELLIDO </h1> <!-- PONER AQUI SU NOMBRE -->
-		        </a>
-		        <h3> Diseño en medios interactivos 2017 </h3>
-		<div>
-		<a href="/medios/01" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
-					<h2> 1 </h2>
-					<h4> Color y Forma </h4> 
-				</div>
+		<script>
+
+			$(function(){
+
+				$(".titulo-color").click( function(){
+				   $(this).parent().children('ul').slideToggle(300);
+				});
+
+
+			});
+
+
+		</script>
+
+		<div class="nav-color">
+			<div class="nav-contenido">
+			   <h1>  Diseño en Medios Interactivos </h1>
+		        <h3> Ejercicios 2018-2 </h3>
 			</div>
-		</a>
-		<a href="/medios/02" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
+		</div>
+
+			<!--ejercicio 1 -->
 			<div class="ejercicio">
-				<div class="adentro">
+
+				<div class="titulo-color">
+
+					<div class="titulo-contenido">
+
+						<h2> 1 </h2>
+						<h4> Color y Forma </h4>
+
+					</div>
+
+				</div>
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 2 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 2 </h2>
-					<h4> Repetición </h4>  
+					<h4> Repetición </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/03" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
+
+			<ul class="estudiantes"  style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 3 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 3 </h2>
-					<h4> Movimiento </h4>  
+					<h4> Movimiento </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/04" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 4 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 4 </h2>
-					<h4> Interacción </h4>  
+					<h4> Interacción </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/05" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 5 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 5 </h2>
-					<h4> Tiempo y 3D </h4>  
+					<h4> Tiempo y 3D </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/06" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 6 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 6 </h2>
-					<h4> Color y Forma </h4>  
+					<h4> Imágenes y Sonido </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/07" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 7 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 7 </h2>
-					<h4> Imágenes y sonido </h4> 
+					<h4> Ecosistemas </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/08" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 8 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 8 </h2>
-					<h4> Ecosistemas </h4>  
+					<h4> Exportar y Descargar / Bases de Datos </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/09" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--ejercicio 9 -->
+		<div class="ejercicio">
+
+			<div class="titulo-color">
+
+				<div class="titulo-contenido">
+
 					<h2> 9 </h2>
-					<h4> Exportar y Descargar / Bases de Datos</h4>  
+					<h4> Entrega final </h4>
+
 				</div>
+
 			</div>
-		</a>
-		<a href="/medios/10" target="_blank"> <!-- PONER AQUI EL LINK DEL EJERCICIO: nombredelrepositorio/nombrecarpeta-->
-			<div class="ejercicio">
-				<div class="adentro">
-					<h2> 10 </h2>
-					<h4> Entrega Final </h4>  
-				</div>
-			</div>
-		</a>
+
+			<ul class="estudiantes" style="display:none;">
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+				<li class="estudiante-color">
+					<a href="#" target="_blank" class=estudiante-nombre> Nombre Apellido </a>
+				</li>
+
+			</ul>
+
+		</div>
+
 	</body>
 <html>
