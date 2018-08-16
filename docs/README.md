@@ -1,5 +1,5 @@
 
-# Diseño en nedios interactivos
+# Diseño en medios interactivos
 
 ### Índices
 
