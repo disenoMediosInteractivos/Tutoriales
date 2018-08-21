@@ -11,3 +11,5 @@ En este tutorial se explican 6 ejemplos sencillos para leer diferentes **tipos d
 5. [Tamaño de la ventana](05.md)
 6. [Dentro del canvas](06.md)
 
+El código de todos los ejemplos se puede ver y descargar [acá](https://github.com/disenoMediosInteractivos/tutoriales/tree/master/04_gestos_desktop/codigo)
+
