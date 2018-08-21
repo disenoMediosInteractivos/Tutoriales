@@ -4,3 +4,10 @@ Un **gesto** es una forma de comunicación no verbal capaz de transmitir sentimi
 
 En este tutorial se explican 6 ejemplos sencillos para leer diferentes **tipos de interacción** en un programa de p5.js. Estos ejemplos buscan inspirar y funcionar como **punto de partida** para exploraciones más complejas e interesantes.
 
+1. [Arrastrar](01.md)
+2. [Velocidad del ratón](02.md)
+3. [Lanzar](03.md)
+4. [Clics por minuto](04.md)
+5. [Tamaño de la ventana](05.md)
+6. [Dentro del canvas](06.md)
+
