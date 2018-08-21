@@ -1,4 +1,4 @@
-# Gestos e interacción
+# Gestos e Interacción
 
 Un **gesto** es una forma de comunicación no verbal capaz de transmitir sentimientos, intenciones y pensamientos. ¿Cómo podemos inferir gestos a partir de acciones que realiza una persona con un medio digital?
 
