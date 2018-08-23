@@ -8,7 +8,7 @@
 2. [Rotación](02.md)
 3. [Toques](03.md)
 4. [Movimiento](04.md)
-5. [Tiempo de toque](05.md)
+5. [Tiempo](05.md)
 6. [Aceleración](06.md)
 
  El código de todos los ejemplos se puede ver y descargar [acá](https://github.com/disenoMediosInteractivos/tutoriales/tree/master/05_gestos_mobile/c%C3%B3digo)
