@@ -13,4 +13,11 @@
   * [4. Clics por minuto](gestos/04.md)
   * [5. Tamaño de la ventana](gestos/05.md)
   * [6. Dentro del canvas](gestos/06.md)
+* [Gestos e Interacción \(dispositivos móviles\)](movil/README.md)
+  * [1. Configuracion](movil/01.md)
+  * [2. Rotación](movil/02.md)
+  * [3. Toques](movil/03.md)
+  * [4. Movimiento](movil/04.md)
+  * [5. Tiempo de toque](movil/05.md)
+  * [6. Aceleración](movil/06.md)
 
