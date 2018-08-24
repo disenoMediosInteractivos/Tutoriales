@@ -20,4 +20,9 @@
   * [4. Movimiento](movil/04.md)
   * [5. Tiempo](movil/05.md)
   * [6. Aceleración](movil/06.md)
+* [Conexión Arduino a p5.js por el puerto serial](arduino-serial/README.md)
+  * [1. Enviar datos desde Arduino](arduino-serial/01.md)
+  * [2. Recibir y enviar datos al navegador](arduino-serial/02.md)
+  * [3. Instalar libreria en p5.js](arduino-serial/03.md)
+  * [4. Leer y visualizar datos en p5.js](arduino-serial/04.md)
 
