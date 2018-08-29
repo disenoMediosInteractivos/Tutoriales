@@ -25,4 +25,8 @@
   * [2. Recibir y enviar datos al navegador](arduino-serial/02.md)
   * [3. Instalar libreria en p5.js](arduino-serial/03.md)
   * [4. Leer y visualizar datos en p5.js](arduino-serial/04.md)
+* [Arduino Wifi: configuración](arduino-wifi-configuracion/README.md)
+  * [1. Configurar Arduino](arduino-wifi-configuracion/1.-configurar-arduino.md)
+  * [2. Configurar Arduino IDE](arduino-wifi-configuracion/2.-configurar-arduino-ide.md)
+  * [3. Controlar placa con Processing](arduino-wifi-configuracion/3.-controlar-placa-con-processing.md)
 

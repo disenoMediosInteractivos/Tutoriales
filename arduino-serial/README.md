@@ -5,5 +5,3 @@
 3. [Instalar libreria en p5.js](03.md)
 4. [Leer y visualizar datos en p5.js](04.md)
 
-
-

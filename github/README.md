@@ -1,6 +1,5 @@
 # Github: Cómo subir un sketch de p5.js a la web
 
-  
 **Recomendación:** Seguir este tutorial utilizando Google Chrome o Mozilla Firefox
 
 1. [Obtener los archivos](01.md)
