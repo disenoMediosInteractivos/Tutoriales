@@ -11,7 +11,7 @@
 #### Arduino
 
 1. [Conexión Arduino a p5.js por el puerto serial](arduino-serial/)
-2. [Arduino Wifi: configuración](wifi-setup/)
+2. [Arduino WiFi: configuración](wifi-setup/)
 
 
 
