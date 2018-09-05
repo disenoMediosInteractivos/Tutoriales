@@ -11,7 +11,7 @@
 #### Subir ejercicios semanales
 
 1. [Obtener los archivos](05.md)
-2. Subir los archivos
+2. [Subir ejercicio a Github](6.-subir-ejercicio.md)
 
 
 
