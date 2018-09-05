@@ -5,7 +5,7 @@
   * [1. Crear una cuenta y un repositorio en Github](github/02.md)
   * [2. Crear índice para los ejercicios](github/03.md)
   * [3. Publicar en Github Pages](github/04.md)
-  * [4. Obtener los archivos](github/05.md)
+  * [4. Obtener los archivos del ejercicio](github/05.md)
   * [5. Subir ejercicio a Github](github/6.-subir-ejercicio.md)
 * [Gestos e Interacción](gestos/README.md)
   * [1. Arrastrar](gestos/01.md)
