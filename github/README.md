@@ -2,10 +2,16 @@
 
 **Recomendación:** Seguir este tutorial utilizando Google Chrome o Mozilla Firefox
 
-1. [Obtener los archivos](01.md)
-2. [Crear una cuenta en Github](02.md)
-3. [Crear un repositorio](03.md)
-4. [Publicar en Github Pages](04.md)
+#### Configuración inicial
+
+1. [Crear una cuenta y un repositorio en Github](02.md)
+2. [Crear índice para los ejercicios](03.md)
+3. [Publicar en Github Pages](04.md)
+
+#### Subir ejercicios semanales
+
+1. [Obtener los archivos](05.md)
+2. Subir los archivos
 
 
 
