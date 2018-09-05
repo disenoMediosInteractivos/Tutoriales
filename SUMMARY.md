@@ -3,7 +3,7 @@
 * [Tutoriales diseño en medios interactivos](README.md)
 * [Github: Cómo subir un sketch de p5.js a la web](github/README.md)
   * [1. Crear una cuenta y un repositorio en Github](github/02.md)
-  * [3. Crear índice para los ejercicios](github/03.md)
+  * [2. Crear índice para los ejercicios](github/03.md)
   * [4. Publicar en Github Pages](github/04.md)
   * [5. Obtener los archivos](github/05.md)
   * [6. Subir ejercicio](github/6.-subir-ejercicio.md)
