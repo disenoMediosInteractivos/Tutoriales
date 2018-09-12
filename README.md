@@ -10,7 +10,7 @@
 
 1. [Gestos e Interacción](group_p5.js/gestos/)
 2. [Gestos e Interacción \(dispositivos móviles\)](group_p5.js/movil/)
-3. [Geolocalización](group_p5.js/geolocalizacion.md)
+3. [Geolocalización](group_p5.js/geolocation/)
 
 
 

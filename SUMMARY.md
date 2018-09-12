@@ -27,7 +27,12 @@
   * [4. Clics por minuto](group_p5.js/gestos/04.md)
   * [5. Tamaño de la ventana](group_p5.js/gestos/05.md)
   * [6. Dentro del canvas](group_p5.js/gestos/06.md)
-* [Geolocalización](group_p5.js/geolocalizacion.md)
+* [Geolocalización](group_p5.js/geolocation/README.md)
+  * [1. Configuración](group_p5.js/geolocation/01.md)
+  * [2. Mostrar ubicación](group_p5.js/geolocation/02.md)
+  * [3. Detectar movimiento](group_p5.js/geolocation/03.md)
+  * [4. Conocer distancias](group_p5.js/geolocation/04.md)
+  * [5. Visualizar relaciones](group_p5.js/geolocation/05.md)
 
 ## Arduino
 
