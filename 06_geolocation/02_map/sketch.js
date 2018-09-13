@@ -10,7 +10,7 @@ const mappa = new Mappa('Leaflet');
 var options = {
   lat: 	0,
   lng: 	0,
-  zoom: 4,
+  zoom: 14,
   style: "https://{s}.tile.osm.org/{z}/{x}/{y}.png"
 }
 
