@@ -19,7 +19,7 @@ var options = {
 
 function setup() {
   
-  canvas = createCanvas(500,500); 
+  canvas = createCanvas(windowWidth, windowHeight);
 
    if (geoCheck() == true) {
      	getCurrentPosition(doThisOnLocation);
