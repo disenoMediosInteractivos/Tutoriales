@@ -1,4 +1,6 @@
 var capture;
+var tracker;
+
 var w = 640;
 var h = 480;
 
@@ -18,12 +20,20 @@ function setup() {
     capture.size(w, h);
     createCanvas(w, h);
     capture.hide();
+
+    tracker = new clm.tracker();
+    tracker.init(pModel);
+    tracker.start(capture.elt);
 }
 
 function draw() {
     image(capture, 0, 0, w, h);
-    capture.loadPixels();
 
-    if (capture.pixels.length > 0) {
-    }
+    // noFill();
+    // stroke(255);
+    // beginShape();
+    // for (var i = 0; i < positions.length; i++) {
+    //     vertex(positions[i][0], positions[i][1]);
+    // }
+    // endShape();
 }
