@@ -6,7 +6,7 @@ let canvas;
 const mappa = new Mappa('Leaflet');
 
 var destino;
-var yo;
+var Localizacion;
 
 var options = {
   lat: 	0,
@@ -18,8 +18,8 @@ var options = {
 function setup() {
 
   canvas = createCanvas(windowWidth, windowHeight);
-  // stroke(255);
-  // strokeWeight(2);
+  stroke(255);
+  strokeWeight(2);
 
    if (geoCheck() == true) {
      	getCurrentPosition(doThisOnLocation);
@@ -31,29 +31,22 @@ function setup() {
 function drawMap(){
   myMap = mappa.tileMap(options);
   myMap.overlay(canvas);
-  myMap.onChange(dibujarLocalizacion);
+  myMap.onChange(dibujarpuntos);
+
 
 }
 
 
-function dibujarLocalizacion() {
-
+function dibujarpuntos() {
   clear();
-
   const pos = myMap.latLngToPixel(localizacion.lat, localizacion.lng);
   localizacion.mover(pos.x, pos.y, localizacion.lat, localizacion.lng);
-  fill(255, 0, 0);
-  localizacion.dibujar();
-
+  fill(0, 255, 255);
+  localizacion.dibujar(20);
+  fill(255, 0, 255);
+  destino.dibujar(10);
 }
 
-function dibujarDestino(){
-  console.log ('voy a dibujar el destino');
-  console.log (destino);
-  clear();
-  fill( 0,255, 0);
-  destino.dibujar();
-}
 
 function doThisOnLocation(locationData){
 
@@ -67,11 +60,10 @@ function doThisOnLocation(locationData){
 }
 
 function mousePressed() {
-  const position = myMap.pixelToLatLng(mouseX, mouseY);
 
+  const position = myMap.pixelToLatLng(mouseX, mouseY);
   destino.mover(mouseX, mouseY, position.lat, position.lng);
-  dibujarDestino();
-  dibujarLocalizacion();
+  dibujarpuntos();
 
 }
 
@@ -81,8 +73,8 @@ function punto(x, y, lat, lng) {
   this.lat = lat;
   this.lng = lng;
 
-  this.dibujar = function(){
-    ellipse(this.x, this.y, 20, 20);
+  this.dibujar = function(l){
+    ellipse(this.x, this.y, l, l);
   }
 
   this.mover = function(x, y, lat, lng){
