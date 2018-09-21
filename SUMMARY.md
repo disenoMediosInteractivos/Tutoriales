@@ -13,13 +13,6 @@
 
 ## p5.js
 
-* [Gestos e Interacción \(dispositivos móviles\)](group_p5.js/movil/README.md)
-  * [1. Configuracion](group_p5.js/movil/01.md)
-  * [2. Rotación](group_p5.js/movil/02.md)
-  * [3. Toques](group_p5.js/movil/03.md)
-  * [4. Movimiento](group_p5.js/movil/04.md)
-  * [5. Tiempo](group_p5.js/movil/05.md)
-  * [6. Aceleración](group_p5.js/movil/06.md)
 * [Gestos e Interacción](group_p5.js/gestos/README.md)
   * [1. Arrastrar](group_p5.js/gestos/01.md)
   * [2. Velocidad del ratón](group_p5.js/gestos/02.md)
@@ -27,6 +20,13 @@
   * [4. Clics por minuto](group_p5.js/gestos/04.md)
   * [5. Tamaño de la ventana](group_p5.js/gestos/05.md)
   * [6. Dentro del canvas](group_p5.js/gestos/06.md)
+* [Gestos e Interacción \(dispositivos móviles\)](group_p5.js/movil/README.md)
+  * [1. Configuracion](group_p5.js/movil/01.md)
+  * [2. Rotación](group_p5.js/movil/02.md)
+  * [3. Toques](group_p5.js/movil/03.md)
+  * [4. Movimiento](group_p5.js/movil/04.md)
+  * [5. Tiempo](group_p5.js/movil/05.md)
+  * [6. Aceleración](group_p5.js/movil/06.md)
 * [Geolocalización](group_p5.js/geolocation/README.md)
   * [1. Configuración](group_p5.js/geolocation/01.md)
   * [2. Mostrar ubicación](group_p5.js/geolocation/02.md)
