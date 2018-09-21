@@ -6,7 +6,7 @@ function preload() {
 
 function setup() {
   createCanvas(400, 400);
-  
+
   if (geoCheck() == true) {
     background(225,255,255);
     watchPosition(positionChanged);
@@ -27,7 +27,7 @@ function draw() {
 }
 
 function positionChanged(locationData) {
-  background(225,255,255);
+  background(random(255));
   text("lat: " + locationData.latitude, 10, 20);
   text("long: " + locationData.longitude, 10, 40);
   text("accuracy: " + locationData.accuracy, 10, 60);
