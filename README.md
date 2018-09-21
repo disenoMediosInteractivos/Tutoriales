@@ -11,7 +11,7 @@
 1. [Gestos e Interacción](group_p5.js/gestos/)
 2. [Gestos e Interacción \(dispositivos móviles\)](group_p5.js/movil/)
 3. [Geolocalización](group_p5.js/geolocation/)
-4. [Visión y cámara](group_p5.js/vision-y-camara/)
+4. Visión y cámara
 
 
 
