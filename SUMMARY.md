@@ -33,6 +33,12 @@
   * [3. Detectar movimiento](group_p5.js/geolocation/03.md)
   * [4. Conocer distancias](group_p5.js/geolocation/04.md)
   * [5. Visualizar relaciones](group_p5.js/geolocation/05.md)
+* [Visión y cámara](group_p5.js/vision-y-camara/README.md)
+  * [1. Configuración](group_p5.js/vision-y-camara/1.-configuracion.md)
+  * [2. Detectar movimiento](group_p5.js/vision-y-camara/2.-detectar-movimiento.md)
+  * [3. Detectar colores](group_p5.js/vision-y-camara/3.-detectar-colores.md)
+  * [4. Detectar caras](group_p5.js/vision-y-camara/4.-detectar-caras.md)
+  * [5. Detectar expresiones](group_p5.js/vision-y-camara/5.-detectar-expresiones.md)
 
 ## Arduino
 
