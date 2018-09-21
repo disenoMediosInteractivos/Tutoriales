@@ -7,6 +7,7 @@ const mappa = new Mappa('Leaflet');
 
 var destino;
 var localizacion;
+var distancia;
 
 var destinoSelec = false;
 
@@ -20,8 +21,6 @@ var options = {
 function setup() {
 
   canvas = createCanvas(windowWidth, windowHeight);
-  strokeWeight(2);
-  stroke(0,0, 255);
 
    if (geoCheck() == true) {
      	getCurrentPosition(doThisOnLocation);
@@ -30,16 +29,52 @@ function setup() {
    }
 }
 
+function draw(){
+  fill(255);
+  noStroke();
+  rect(0 , height - 130, 300, height);
+
+  if (destinoSelec) {
+    distancia = calcGeoDistance(localizacion.lat, localizacion.lng, destino.lat, destino.lng, 'km')
+    fill(0);
+    text("Latitud actual: " + localizacion.lat, 20, height - 100);
+    text("Longititud actual: " + localizacion.lng, 20, height - 80);
+    text("Latitud destino: " + destino.lat, 20, height - 60);
+    text("Longitud destino: " + destino.lng, 20,height - 40);
+    text("Distancia: " + distancia + " km", 20, height - 20);
+
+  }
+}
+
 function drawMap(){
   myMap = mappa.tileMap(options);
   myMap.overlay(canvas);
   myMap.onChange(dibujarpuntos);
+  myMap.onChange( function() {
 
+    fill(255);
+    noStroke();
+    rect(0 , height - 130, 300, height);
+    if (destinoSelec) {
+
+      distancia = calcGeoDistance(localizacion.lat, localizacion.lng, destino.lat, destino.lng, 'km')
+      fill(0);
+      text("Latitud actual: " + localizacion.lat, 20, height - 100);
+      text("Longititud actual: " + localizacion.lng, 20, height - 80);
+      text("Latitud destino: " + destino.lat, 20, height - 60);
+      text("Longitud destino: " + destino.lng, 20,height - 40);
+      text("Distancia: " + distancia + " km", 20, height - 20);
+
+    }
+  });
 }
 
 
 function dibujarpuntos() {
   clear();
+
+  strokeWeight(2);
+  stroke(0,0, 255);
 
   const pos = myMap.latLngToPixel(localizacion.lat, localizacion.lng);
   localizacion.mover(pos.x, pos.y, localizacion.lat, localizacion.lng);
@@ -56,7 +91,6 @@ function dibujarpuntos() {
   }
 
 }
-
 
 function doThisOnLocation(locationData){
 
