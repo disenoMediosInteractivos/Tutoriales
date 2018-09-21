@@ -6,7 +6,9 @@ let canvas;
 const mappa = new Mappa('Leaflet');
 
 var destino;
-var Localizacion;
+var localizacion;
+
+var destinoSelec = false;
 
 var options = {
   lat: 	0,
@@ -18,8 +20,8 @@ var options = {
 function setup() {
 
   canvas = createCanvas(windowWidth, windowHeight);
-  stroke(255);
   strokeWeight(2);
+  stroke(0,0, 255);
 
    if (geoCheck() == true) {
      	getCurrentPosition(doThisOnLocation);
@@ -33,18 +35,26 @@ function drawMap(){
   myMap.overlay(canvas);
   myMap.onChange(dibujarpuntos);
 
-
 }
 
 
 function dibujarpuntos() {
   clear();
+
   const pos = myMap.latLngToPixel(localizacion.lat, localizacion.lng);
   localizacion.mover(pos.x, pos.y, localizacion.lat, localizacion.lng);
-  fill(0, 255, 255);
+  fill(255, 0, 0);
   localizacion.dibujar(20);
-  fill(255, 0, 255);
+  fill(255);
+
+  const destinoPos = myMap.latLngToPixel(destino.lat, destino.lng);
+  destino.mover(destinoPos.x, destinoPos.y, destino.lat, destino.lng);
   destino.dibujar(10);
+
+  if(destinoSelec) {
+    localizacion.calcDist(destino);
+  }
+
 }
 
 
@@ -60,6 +70,7 @@ function doThisOnLocation(locationData){
 }
 
 function mousePressed() {
+  destinoSelec = true;
 
   const position = myMap.pixelToLatLng(mouseX, mouseY);
   destino.mover(mouseX, mouseY, position.lat, position.lng);
@@ -84,7 +95,10 @@ function punto(x, y, lat, lng) {
     this.lng = lng;
   }
 
-  this.calcDist = function(lat, lng){
+  //esta función recibe como parametro un objeto punto
+  this.calcDist = function(p) {
+
+    line(this.x, this.y, p.x, p.y);
 
   }
 }
