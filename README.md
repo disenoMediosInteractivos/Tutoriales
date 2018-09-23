@@ -2,16 +2,16 @@
 
 #### Github
 
-1. [Github: Cómo subir un sketch de p5.js a la web](group_github/github/)
+1. [Github: Cómo subir un sketch de p5.js a la web]()
 
 
 
 #### p5.js
 
-1. [Gestos e Interacción](group_p5.js/gestos/)
-2. [Gestos e Interacción \(dispositivos móviles\)](group_p5.js/movil/)
-3. [Geolocalización](group_p5.js/geolocation/)
-4. [Visión y cámara](group_p5.js/camera/)
+1. [Gestos e Interacción](p5.js/gestos/)
+2. [Gestos e Interacción \(dispositivos móviles\)](p5.js/movil/)
+3. [Geolocalización](p5.js/geolocation/)
+4. [Visión y cámara](p5.js/camera/)
 
 
 

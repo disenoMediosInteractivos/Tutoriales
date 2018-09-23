@@ -2,16 +2,14 @@
 
 **Recomendación:** Seguir este tutorial utilizando Google Chrome o Mozilla Firefox
 
-#### Configuración inicial
+## Configuración inicial
 
 1. [Crear una cuenta y un repositorio en Github](02.md)
 2. [Crear índice para los ejercicios](03.md)
 3. [Publicar en Github Pages](04.md)
 
-#### Subir ejercicios semanales
+## Subir ejercicios semanales
 
 1. [Obtener los archivos](05.md)
 2. [Subir ejercicio a Github](6.-subir-ejercicio.md)
-
-
 
