@@ -14,10 +14,8 @@
 ## p5.js
 
 * [Gestos e Interacción](p5.js/gestos/README.md)
-  * [1. Arrastrar \(simple\)](p5.js/gestos/arrastrar-simple/README.md)
-    * [Arrastrar \(Avanzado\)](p5.js/gestos/arrastrar-simple/01.md)
-  * [2. Velocidad del Ratón \(Simple\)](p5.js/gestos/2.-velocidad-del-raton-simple.md)
-  * [2. Velocidad del ratón](p5.js/gestos/02.md)
+  * [1. Arrastrar](p5.js/gestos/01.md)
+  * [2. Velocidad del ratón \(Avanzado\)](p5.js/gestos/02.md)
   * [3. Lanzar](p5.js/gestos/03.md)
   * [4. Clics por minuto](p5.js/gestos/04.md)
   * [5. Tamaño de la ventana](p5.js/gestos/05.md)
