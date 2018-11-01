@@ -35,7 +35,7 @@
 * [Visión y cámara](p5.js/camera/README.md)
   * [1. Configuración](p5.js/camera/01.md)
   * [2. Detectar movimiento](p5.js/camera/02.md)
-  * [3. Detectar colores](p5.js/camera/03.md)
+  * [2. Detectar colores](p5.js/camera/03.md)
   * [4. Detectar caras](p5.js/camera/04.md)
   * [5. Detectar expresiones](p5.js/camera/05.md)
 
