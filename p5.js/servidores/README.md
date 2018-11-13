@@ -1,7 +1,7 @@
 # Servidores
 
-1. [Configuración](1.-configuracion.md)
-2. [Enviar y recibir datos](../2.-enviar-y-recibir-datos.md)
+1. [Configuración](01.md)
+2. [Establecer conexión](02.md)
 3. Guardar datos en el servidor
 4. Display
 
