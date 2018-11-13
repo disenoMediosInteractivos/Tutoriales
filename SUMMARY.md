@@ -40,6 +40,7 @@
   * [5. Detectar expresiones](p5.js/camera/05.md)
 * [Servidores](p5.js/servidores/README.md)
   * [1. Configuración](p5.js/servidores/1.-configuracion.md)
+* [2. establecer conexión](p5.js/2.-enviar-y-recibir-datos.md)
 
 ## Arduino
 
