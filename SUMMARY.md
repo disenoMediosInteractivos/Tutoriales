@@ -38,7 +38,8 @@
   * [3. Detectar color](p5.js/camera/03.md)
   * [4. Detectar caras](p5.js/camera/04.md)
   * [5. Detectar expresiones](p5.js/camera/05.md)
-* [Servidores](p5.js/servidores.md)
+* [Servidores](p5.js/servidores/README.md)
+  * [1. Configuración](p5.js/servidores/1.-configuracion.md)
 
 ## Arduino
 
